@@ -12,7 +12,7 @@ Transformer uses only one encoder-decoder block as of now(can be increased later
 
  - KANs can approximate any continuous function with arbitrary precision using a three-layer network structure, thanks to the Kolmogorov-Arnold theorem. In contrast, an MLP typically requires a larger number of hidden layers and neurons to achieve similar accuracy.
 
- - Read one more paper where it is mentioned that Temporal Kolmogorov-Arnold Networks (TKANs) combine the strengths of KANs and recurrent neural networks like LSTMs. This enables TKANs to effectively handle complex sequential patterns and perform multi-step time series forecasting with enhanced accuracy and efficiency.
+ - I read another paper where it is mentioned that Temporal Kolmogorov-Arnold Networks (TKANs) combine the strengths of KANs and recurrent neural networks like LSTMs. This enables TKANs to effectively handle complex sequential patterns and perform multi-step time series forecasting with enhanced accuracy and efficiency.
 
 So, I thought it can be used in NLP Tasks.
 
