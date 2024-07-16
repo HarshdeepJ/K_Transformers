@@ -17,3 +17,14 @@ Transformer uses only one encoder-decoder block as of now(can be increased later
 So, I thought it can be used in NLP Tasks.
 
 [^1]: https://arxiv.org/abs/2404.19756
+
+## Running the code:
+
+Dataset.zip has two files:
+ - english.txt
+ - kannada.txt
+   
+Merge.ipynb is the driver code. It imports K_Transformers.py which uses KAN instead of MLP.
+KAN.py has all the necessary functions for implementation of Kalmogrov-Arnold Network.
+
+> PS: I need to try the architecture on other language datasets as of now. Only English to Kannada done. (WLP14 en-fr is too big and will need some more time to run)
